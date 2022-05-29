@@ -5,6 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm install`
+To install the required dependencies to run the project.
 
 ### `npm start`
 
@@ -13,6 +15,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `Functionality`
+
+At the start, The project shows Worldwide Data. When chosen a country, the data and graph is updated to the data of the chosen country.
+There are two filters for the graph, i.e country and data since 7days, 30 days and 90 days. When chosen, the graph displays that filtered data. 
+There is a table which includes data of all the countries with a search functionality. 
 
 ### `npm test`
 

@@ -1,0 +1,27 @@
+    
+.data{
+    margin-top: 20px;
+    overflow: scroll;
+    height: 400px;
+    color: #6a5d5d;
+    
+}
+.data tr {
+    display: flex;
+    justify-content: space-between; 
+    margin-right: 1rem ;
+   
+    
+}
+.data td{
+    padding: 1rem;
+    text-align: center;
+    width: 20%
+}
+.data tr:nth-of-type(odd){
+    background-color: #e5e7eb
+    ;
+}
+.h3{
+    color:rgb(182 57 57 / 87%);
+}
